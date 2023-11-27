@@ -1,0 +1,35 @@
+:root {
+  --color-text: #fafafa;
+  --color-text1: rgb(228, 184, 9);
+  --color-bg1: rgb(200, 208, 247);
+  --color-bg2: linear-gradient(#3655f1, #3655f1, rgb(82, 198, 239));
+  --color-bg3: linear-gradient(#3655f1, rgb(82, 198, 239), #3655f1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  /* background: var(--color-bg3); */
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+header {
+  background: var(--color-bg2);
+}
+
+a {
+  text-decoration: none;
+}
