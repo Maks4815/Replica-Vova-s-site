@@ -1,12 +1,11 @@
 .sec1 {
-  /* max-width: 1400px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 80px;
+  margin: 0 auto;
   padding: 24px;
-  background: var(--color-bg3);
+  background: var(--color-text);
 }
 
 .sec1 h2 {
@@ -19,7 +18,11 @@
 }
 
 .sec1 p {
-  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+section p {
+  font-size: 18px;
   font-weight: 700;
   line-height: 150%;
   /* margin: 80px auto; */
@@ -31,7 +34,7 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 120%;
-  margin: 120px auto 30px;
+  margin: 20px auto 30px;
   text-align: center;
   color: var(--color-text2);
 }
@@ -47,4 +50,134 @@
 
 .block p {
   text-align: left;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 24px;
+  background: var(--color-bg2);
+}
+
+.sec2 h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 40px auto;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.sec2 h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0px auto 20px;
+  color: var(--color-text);
+}
+
+.sec2 p {
+  color: var(--color-text);
+  font-weight: 400;
+}
+
+.news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.news1 {
+  flex-direction: row-reverse;
+}
+
+.news__right {
+  width: 500px;
+  border: 3px solid var(--color-text);
+  border-radius: 50px;
+}
+
+.news__left {
+  width: 50%;
+}
+
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 24px;
+  background: var(--color-text);
+}
+
+.sec3 h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 80px auto;
+  text-align: center;
+  color: var(--color-text2);
+}
+
+.sec3 p {
+  margin-bottom: 80px;
+}
+
+.sec4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 24px;
+  background: var(--color-bg2);
+}
+
+.sec4 h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 40px auto;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.sec4 p {
+  color: var(--color-text);
+  font-weight: 400;
+  margin-bottom: 40px;
+  max-width: 1200px;
+}
+
+.spec {
+  color: var(--color-text);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  margin-bottom: 80px;
+}
+
+.help {
+  margin-top: 80px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  max-width: 600px;
+  color: var(--color-text3);
+  font-weight: 700;
+  transition: 300ms;
+}
+
+.help:hover {
+  color: var(--color-text2);
+  transition: 300ms;
 }
