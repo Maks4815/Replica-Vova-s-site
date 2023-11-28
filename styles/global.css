@@ -39,3 +39,12 @@ header {
 a {
   text-decoration: none;
 }
+
+footer {
+  background: var(--color-text3);
+  color: var(--color-text);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 200%;
+}
