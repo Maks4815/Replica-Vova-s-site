@@ -94,6 +94,15 @@ section p {
   margin-bottom: 80px;
 }
 
+/* @media (max-width: 1200px) {
+  .news {
+    justify-content: center;
+  }
+  .news__left {
+    width: 100%;
+  }
+} */
+
 .news1 {
   flex-direction: row-reverse;
 }
@@ -104,8 +113,10 @@ section p {
   border-radius: 50px;
 }
 
-.news__left {
-  width: 50%;
+.news1 .news__left,
+.news1 .news__left p {
+  /* width: 50%; */
+  text-align: end;
 }
 
 .sec3 {
